@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tunes Music Centre</title>
+    <link rel="icon" href="C:\Users\C.C.Leeniyagoda\Desktop\ICT 2204\mypracs\website\images\icon.gif" type="image/x-icon">
+
+     <link rel="stylesheet" href="pro.css">
+<script>
+  function handleSearchForm(event) {
+    event.preventDefault(); // Prevent the default form submission
+    
+    // Get the selected option from the dropdown list
+    var selectedOption = document.getElementById('categorySelect').value.toLowerCase();
+    
+    // Redirect the user to the selected category page
+    switch(selectedOption) {
+      case 'guitars':
+        window.location.href = 'Guitar.html';
+        break;
+      case 'keyboard':
+        window.location.href = 'keyboard.html'; // Corrected value
+        break;
+      case 'drums':
+        window.location.href = 'Drum.html';
+        break;
+      case 'percussion':
+        window.location.href = 'Percussion.html';
+        break;
+      case 'string':
+        window.location.href = 'String.html';
+        break;
+      case 'brass':
+        window.location.href = 'Brass.html';
+        break;
+      case 'wind':
+        window.location.href = 'Wind.html';
+        break;
+      case 'other':
+        window.location.href = 'Other.html';
+        break;
+      default:
+        window.location.href = 'search-results.html';
+    }
+  }
+</script></head>
+<body background="C:\Users\C.C.Leeniyagoda\Desktop\ICT 2204\mypracs\website\images\proback.jpg">
+
+<div class="search-container">
+  <form onsubmit="handleSearchForm(event)">
+    <select id="categorySelect">
+      <option value="guitars">Guitars</option>
+      <option value="keyboard">Keyboards and Pianos</option> <!-- Corrected value -->
+      <option value="drums">Drums</option>
+      <option value="Percussion">Percussion</option>
+      <option value="string">String</option>
+      <option value="wind">wind</option>
+      <option value="brass">Brass</option>
+      <option value="Other">Other accessories</option>
+    </select>
+    <button type="submit">Search</button>
+  </form>
+</div>
+<p><b>At Tunes Music Centre, we take pride in offering top-notch musical instruments crafted with precision and care. Our products are renowned for their exceptional quality, superior craftsmanship, and rich tones. Whether you're a seasoned musician or just starting your musical journey, you can trust our instruments to deliver unparalleled sound performance and reliability.<p></b>
+<br>
+<p><b>Each instrument in our collection undergoes rigorous quality control measures to ensure that it meets our stringent standards. From acoustic guitars to digital keyboards, drums to wind instruments, we source only the finest materials and work with skilled artisans to bring you instruments that inspire creativity and elevate your musical experience.</p></b>
+<br>
+<h2><b>Experience the difference with Tunes Music Products– where quality meets harmony...!</b></h2>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tunes Music Centre</title>
+    <link rel="icon" href="C:\Users\C.C.Leeniyagoda\Desktop\ICT 2204\mypracs\website\images\icon.gif" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px 10px 50px;
+            text-align: left;
+        }
+        .contact-info {
+            font-weight: bold;
+        }
+        .contact-info span {
+            display: inline-block;
+            margin-right: 20px; 
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+	<p><b>CONTACT US</p></b>
+        <p class="contact-info">
+            <span>Email - tunesmusic@123gmail.com</span>
+            <span>Telephone - 035 2221136 / 071 6351096</span>
+            <span>Web - <a href="http://www.Tunesmusiccentre.com" target="_blank">www.Tunesmusiccentre.com</a></span>
+        </p>
+    </header>
+    <div class="container">
+        <p>Have a question or feedback for us? Fill out the form below, and we'll get back to you as soon as possible.</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+</body>
+</html>

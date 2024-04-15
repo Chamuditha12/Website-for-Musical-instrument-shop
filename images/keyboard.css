@@ -1,0 +1,111 @@
+body
+{
+	background-repeat: no-repeat;
+	background-size:cover;
+	font-size:40px;
+	text-align:center;
+	color:red;
+
+}
+h1
+{
+	font-size:40px;
+	text-align:left;
+	color:white;	
+}
+h3
+{
+	font-size:20px;
+	text-align:left;
+	color:red;	
+}
+
+.product1 {
+    width: 100px; 
+    margin-top: 20px; 
+    float: left; 
+    margin-right: 20px; 
+}
+.product1 img{
+width: 200%;
+}
+.product2 {
+    width: 100px; 
+    margin-top: 20px; 
+    float: left; 
+    margin-right: 30px;
+ margin-left: 100px;  
+}
+.product2 img{
+width: 200%;
+}
+.product3 {
+    width: 100px; 
+    margin-top: 20px; 
+    float: left; 
+    margin-right: 30px;
+ margin-left: 120px;  
+}
+.product3 img{
+width: 200%;
+}
+.product4 {
+    width: 100px; 
+    margin-top: 20px; 
+    float: left; 
+    margin-right: 30px;
+ margin-left: 120px;  
+}
+.product4 img{
+width: 200%;
+}
+.product5 {
+    width: 100px; 
+    margin-top: 20px; 
+    float: left; 
+    margin-right: 30px;
+ margin-left: 150px;  
+}
+.product5 img{
+width: 200%;
+}
+.product6 {
+    width: 100px; 
+    margin-top: 20px; 
+    float: left; 
+    margin-right: 30px;
+ margin-left: 170px;  
+}
+.product6 img{
+width: 200%;
+}
+h2{
+	font-size:100px;
+	text-align:center;
+	color:black;
+}
+.product7 {
+    width: 100px; 
+    margin-top: 20px; 
+    float: left; 
+    
+ margin-left: 20px;  
+}
+.product7 img{
+width: 200%;
+}
+
+.product8 {
+    width: 100px; 
+    margin-top: 20px; 
+    float: left; 
+    margin-right: 100px;
+ margin-left: 200px;  
+}
+.product8 img{
+width: 200%;
+}
+
+
+
+

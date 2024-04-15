@@ -1,0 +1,11 @@
+.search-product
+{
+	margin: 0 auto;
+	width: 1000px;
+	float: right;
+}
+.box
+{
+	width: 1000px;
+	background: maroon;
+}
